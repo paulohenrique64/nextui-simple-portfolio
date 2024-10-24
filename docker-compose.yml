@@ -1,0 +1,9 @@
+version: '3.2'
+
+services:
+  nextjs-frontend:
+    container_name: nextjs-portfolio
+    ports:
+      - 5173:5173
+    build: .
+    command: npm run dev -- --host
