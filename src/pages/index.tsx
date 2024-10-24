@@ -26,8 +26,8 @@ export default function IndexPage() {
 
           <div className="inline-block max-w-lg text-center justify-center">
             <span className={title({size: "ssm"})}>Paulo Henrique Ribeiro Alves&nbsp;</span><br />
-            <span className={title({ size: "sssm",color: "blue" })}>Estudante de Ciência da Computação&nbsp;</span><br/>
-            <span className="text-default-2000 text-large">Gosto de aprender sobre linux e criar jogos web&nbsp;</span>
+            <span className={title({ size: "sssm",color: "blue" })}>Computer Science Student&nbsp;</span><br/>
+            <span className="font-medium text-large">I like linux and creating web games&nbsp;</span>
             <br />
           </div>
 
@@ -70,10 +70,10 @@ export default function IndexPage() {
                 radius={"full"}
               />
             </CardBody>
-            <CardHeader className="card-header pb-2 pt-0 px-6 py-4 flex-col items-start w-1/8 mt-0">
-              <h4 className="font-bold text-large">Jogo da Velha Online</h4>
+            <CardHeader className="card-header pb-2 pt-0 px-2 py-6 flex-col items-start w-1/8 mt-0 mr-2">
+              <h4 className="font-bold text-xl">Jogo da Velha Online</h4>
               <p className="text-tiny uppercase font-bold"></p>
-              <small className="text-default-1000">Jogo online multiplayer criado<br/>por mim</small>
+              <small className="font-normal text-xs text-opacity-0">Online multiplayer tic tac toe<br/>created by me</small>
             </CardHeader>
           </Card>
 

@@ -19,7 +19,7 @@ export default function DefaultLayout({
           href="https://github.com/paulohenrique64"
           title="nextui.org homepage"
         >
-          <span className="text-default-600">Criado por</span>
+          <span className="text-default-600">Created by</span>
           <p className="text-primary">Paulo Henrique Ribeiro Alves</p>
         </Link>
       </footer>
