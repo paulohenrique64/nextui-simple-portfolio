@@ -12,8 +12,8 @@ import { Image } from "@nextui-org/image";
 export default function IndexPage() {
   return (
     <DefaultLayout>
-      <section className="flex flex-row items-start justify-center gap-2 py-8 mt-20 md:py-10">
-        <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
+      <section className="profile-and-projects flex flex-row items-start justify-center gap-2 py-8 mt-20 md:py-10">
+        <section className="profile flex flex-col items-center justify-center gap-4 py-8 md:py-10">
           <Image
             // isBlurred
             height={240}
@@ -51,26 +51,26 @@ export default function IndexPage() {
           </div>
         </section>
 
-        <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10 ml-20 mt-0">
+        <section className="projects flex flex-col items-center justify-center gap-4 py-8 md:py-10 ml-20 mt-0">
           <Card 
             isBlurred
             className="py-2 w-1/1 flex flex-row hover:outline hover:outline-1 hover:outline-black bg-background/5 bg-transparent" 
             isPressable
-            href="/jogodavelha"
+            href="http://paulodev.me/jogodavelha"
             as={Link}
             isHoverable
           >
-            <CardBody className="overflow-visible py-1 w-1/20 ml-2">
+            <CardBody className="card-body overflow-visible py-1 w-1/20 ml-2">
               <Image
                 alt="Card background"
-                className="object-cover rounded-xl"
+                className="game-image object-cover rounded-xl"
                 src="https://raw.githubusercontent.com/paulohenrique64/jogo-da-velha-online/refs/heads/main/public/images/logo.png"
                 width={85}
                 height={85}
                 radius={"full"}
               />
             </CardBody>
-            <CardHeader className="pb-2 pt-0 px-6 py-4 flex-col items-start w-1/8 mt-0">
+            <CardHeader className="card-header pb-2 pt-0 px-6 py-4 flex-col items-start w-1/8 mt-0">
               <h4 className="font-bold text-large">Jogo da Velha Online</h4>
               <p className="text-tiny uppercase font-bold"></p>
               <small className="text-default-1000">Jogo online multiplayer criado<br/>por mim</small>

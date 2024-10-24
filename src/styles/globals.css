@@ -1,3 +1,80 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media screen and (max-width: 1000px) {
+    .profile-and-projects {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .projects {
+        margin-left: 0;
+    }
+
+    .profile {
+
+    }
+}
+  
+@media screen and (max-width: 576px) {
+    .profile-and-projects {
+        transform: scale(0.9); 
+    }
+
+    .profile {
+
+    }
+
+    .projects {
+        margin-left: 0;
+    }
+
+    .game-image {
+
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .profile-and-projects {
+        @apply py-0;
+        transform: scale(0.75); 
+    }
+
+    .profile {
+
+    }
+
+    .projects {
+        margin-left: 0;
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .profile-and-projects {
+        @apply py-0;
+        transform: scale(0.75); 
+    }
+
+    .profile {
+
+    }
+
+    .projects {
+        margin-left: 0;
+        /* transform: scale(0.75);  */
+    }
+
+    .card-body {
+        width: 0;
+        margin: 0;
+    }
+
+    .card-header {
+        margin: 0;
+    }
+}
+  
