@@ -28,6 +28,7 @@ export default function IndexPage() {
             <span className={title({size: "ssm"})}>Paulo Henrique Ribeiro Alves&nbsp;</span><br />
             <span className={title({ size: "sssm",color: "blue" })}>Computer Science Student&nbsp;</span><br/>
             <span className="font-medium text-large">I like linux and creating web games&nbsp;</span>
+            {/* <span className={title({size: "ssm"})}> 👨🏻‍💻&nbsp;</span><br /> */}
             <br />
           </div>
 
