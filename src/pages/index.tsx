@@ -16,12 +16,13 @@ export default function IndexPage() {
         <section className="profile flex flex-col items-center justify-center gap-4 py-8 md:py-10">
           <Image
             // isBlurred
-            height={240}
-            width={240}
-            src="https://avatars.githubusercontent.com/u/121206702?s=400&u=789ad4dfadfceda618d42359bc00968fcd7093ab&v=4"
+            height={300}
+            width={300}
+            src="https://media.licdn.com/dms/image/v2/D4E03AQEfsIpO_0gG_A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1733087154891?e=1738800000&v=beta&t=EwbucxLjgAKN5EVELvwCvru9z3cv3GIb35LPwHpq0Yk"
             alt="me :D"
             className="m-0"
-            shadow="lg"
+            shadow="none"
+            radius="full"
           />
 
           <div className="inline-block max-w-lg text-center justify-center">
