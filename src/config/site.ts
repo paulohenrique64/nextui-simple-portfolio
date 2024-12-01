@@ -45,6 +45,6 @@ export const siteConfig = {
   ],
   links: {
     github: "https://github.com/paulohenrique64",
-    linkedin: "https://www.linkedin.com/in/paulo-henrique-218708281/"
+    linkedin: "https://www.linkedin.com/in/paulo-henrique-ribeiro-alves-218708281/"
   },
 };
